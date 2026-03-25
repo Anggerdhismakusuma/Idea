@@ -1,5 +1,5 @@
 <x-layout title="Ideas">
-    <div class="mt-6 text-white">
+    <div class="mt-6 card bg-neutral p-6 text-white">
         <h2 class="font-bold">Your Idea</h2>
 
         <div class="mt-6">
@@ -7,8 +7,9 @@
         </div>
 
         <div class="mt-6 flex items-center gap-x-6">
-            <a href="/ideas/{{ $idea->id }}/edit" class="rounded-md bg-indigo-500 px-3 py-2 text-sm font-semibold text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500">Edit</a>
+            <a href="/ideas/{{ $idea->id }}/edit" class="btn btn-soft">Edit</a>
         </div>
         
     </div>
+
 </x-layout>
